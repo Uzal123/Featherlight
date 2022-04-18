@@ -1,14 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/Nike logo.svg";
-import Shoe1 from "../../public/shoe1.svg";
-import Shoe2 from "../../public/shoe2.svg";
-import Shoe3 from "../../public/shoe3.svg";
-import { useState } from "react";
 
 const index = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
   const items = [
     {
       id: "1",
@@ -35,16 +28,14 @@ const index = () => {
       img: "/Shoe102.png",
     },
   ];
-  const handleClick = (i) => {
-    setCurrentSlide(i);
-  };
+
   return (
     <div className="lg:h-screen">
       <navbar className="flex lg:absolute z-50 lg:p-8 p-3 w-screen">
         <div className="lg:mx-8 mx-3 lg:block hidden absolute">
           <Link href="/home">
             <a>
-              <Logo className="h-6" />
+              <img src="/3.png" className="h-12" />
             </a>
           </Link>
         </div>
@@ -89,7 +80,7 @@ const index = () => {
         </div>
       </div> */}
       {items.map((d, i) => (
-        <div className="h-screen lg:flex flex-nowrap overflow-hidden relative left-0">
+        <div className="h-screen lg:flex flex-nowrap overflow-hidden relative left-0" key={i}>
           <div
             className=" w-screen lg:h-4/5 lg:flex flex-nowrap transition-all duration-700 ease-in-out "
             style={{ transform: `translateX(-${currentSlide * 100}vw)` }}

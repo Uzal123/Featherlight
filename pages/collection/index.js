@@ -1,9 +1,6 @@
 import React from 'react';
 import Link from "next/link";
-import Shoe1 from "../../public/shoe1.svg";
-import Shoe2 from "../../public/shoe2.svg";
-import Shoe3 from "../../public/shoe3.svg";
-import Logo from "../../public/Nike logo.svg";
+import Logo from "../../public/3.svg";
 
 function index() {
      const items = [
@@ -66,7 +63,7 @@ function index() {
         </ul>
       </navbar>
       {items.map((d, i) => (
-        <div className="h-screen lg:flex flex-nowrap overflow-hidden relative left-0">
+        <div className="h-screen lg:flex flex-nowrap overflow-hidden relative left-0" key={i}>
           <div className=" w-screen lg:h-4/5 lg:flex flex-nowrap transition-all duration-700 ease-in-out ">
             <div className="lg:flex w-screen">
               <div className="right-0 flex lg:justify-end justify-center z-50 w-full lg:w-1/2 lg:order-last">
