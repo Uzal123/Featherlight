@@ -83,7 +83,6 @@ const index = () => {
         <div className="h-screen lg:flex flex-nowrap overflow-hidden relative left-0" key={i}>
           <div
             className=" w-screen lg:h-4/5 lg:flex flex-nowrap transition-all duration-700 ease-in-out "
-            style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
           >
             <div className="lg:flex w-screen">
               <div className="right-0 flex lg:justify-end justify-center z-50 w-full lg:w-1/2 lg:order-last">
