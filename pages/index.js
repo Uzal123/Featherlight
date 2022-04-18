@@ -62,23 +62,7 @@ const index = () => {
           </li>
         </ul>
       </navbar>
-      {/* <div className="absolute top-20 left-0 lg:m-16 ml-4 z-50">
-        <div className="lg:block hidden">
-          {items.map((item, i) => (
-            <div
-              className={
-                "px-8 py-5 text-xl cursor-pointer  transition-all border-l-2 border-black " +
-                (currentSlide === i ? " active" : "")
-              }
-              key={i}
-            >
-              <h2 onClick={() => handleClick(i)} className="cursor-pointer">
-                0{i + 1}
-              </h2>
-            </div>
-          ))}
-        </div>
-      </div> */}
+           
       {items.map((d, i) => (
         <div className="h-screen lg:flex flex-nowrap overflow-hidden relative left-0" key={i}>
           <div
