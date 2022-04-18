@@ -1,0 +1,15 @@
+module.exports = {
+    content: [
+        "./pages/**/*.{js,ts,jsx,tsx}",
+        "./components/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+        extend: {
+            colors:{
+                background: "#E4DFDC",
+                backgroundLight: "#F6F0F0"
+            }
+        },
+    },
+    plugins: [],
+}
