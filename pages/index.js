@@ -33,7 +33,7 @@ const index = () => {
     <div className="lg:h-screen">
       <navbar className="flex lg:absolute z-50 lg:p-8 p-3 w-screen">
         <div className="lg:mx-8 mx-3 lg:block hidden absolute">
-          <Link href="/home">
+          <Link href="/">
             <a>
               <img src="/3.png" className="h-12" />
             </a>
@@ -41,7 +41,7 @@ const index = () => {
         </div>
         <ul className="flex lg:justify-start w-full justify-between lg:pl-36">
           <li className="lg:mx-8 mx-3 cursor-pointer font-bold underline">
-            <Link href="/home">
+            <Link href="/">
               <a>Men</a>
             </Link>
           </li>
