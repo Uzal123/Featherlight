@@ -80,7 +80,7 @@ const index = () => {
                     <p className="pb-6">{d.desc}</p>
                     <div className="w-full flex">
                       <button className="bg-black text-white p-3 w-1/2 rounded-xl">
-                        Add to Bag
+                        Buy Now
                       </button>
                       <p className="w-1/2 p-3 font-bold text-xl">{d.price}</p>
                     </div>
