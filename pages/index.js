@@ -70,7 +70,7 @@ const index = () => {
           >
             <div className="lg:flex w-screen">
               <div className="right-0 flex lg:justify-end justify-center z-50 w-full lg:w-1/2 lg:order-last">
-                <img src={d.img} className="h-full object-cover" />
+                <img src={d.img} className="h-full object-cover" alt="Picture"/>
               </div>
               <div className="left flex w-full lg:w-1/2 p-6 lg:pl-48">
                 <div className="flex justify-center items-center">
@@ -80,7 +80,7 @@ const index = () => {
                     <p className="pb-6">{d.desc}</p>
                     <div className="w-full flex">
                       <button className="bg-black text-white p-3 w-1/2 rounded-xl">
-                        Buy Now
+                        Add to Bag
                       </button>
                       <p className="w-1/2 p-3 font-bold text-xl">{d.price}</p>
                     </div>
