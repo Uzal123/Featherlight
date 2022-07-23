@@ -9,7 +9,7 @@ const index = () => {
       title2: "Max Pre-Day",
       desc: "Taking the classic look of heritage Nike Running into a new realm, the Nike Air Max Pre-Day brings you a fast-paced look that's ready for today's world.A true nod to the past with a design made from at least 20% recycled material by weight.",
       price: "₹ 11,495.00",
-      img: "/Shoe100.png",
+      img: "/shoe100.png",
     },
     {
       id: "2",
@@ -17,7 +17,7 @@ const index = () => {
       title2: "Max",
       desc: "Taking the classic look of heritage Nike Running into a new realm, the Nike Air Max Pre-Day brings you a fast-paced look that's ready for today's world.A true nod to the past with a design made from at least 20% recycled material by weight.",
       price: "₹ 11,495.00",
-      img: "/Shoe101.png",
+      img: "/shoe101.png",
     },
     {
       id: "2",
@@ -25,7 +25,7 @@ const index = () => {
       title2: "Max pre-wing",
       desc: "Taking the classic look of heritage Nike Running into a new realm, the Nike Air Max Pre-Day brings you a fast-paced look that's ready for today's world.A true nod to the past with a design made from at least 20% recycled material by weight.",
       price: "₹ 11,495.00",
-      img: "/Shoe102.png",
+      img: "/shoe102.png",
     },
   ];
 
